@@ -9,18 +9,23 @@
 
 
 
+
 .navbar{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
     padding:10px;
-    background-color: transparent;
    position:fixed;
    overflow:hidden;
    top:0;
-    
-    width:100vw;
-    
+   width:100vw;
+  /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(30, 75, 202, 0.63);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(30, 75, 202, 1);
 }
 
 .name-logo{
@@ -89,6 +94,3 @@ a:active::after{
 }
 
 
-.ratings{
-   
-}
