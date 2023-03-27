@@ -121,9 +121,45 @@ background: radial-gradient(circle, rgba(156,169,233,1) 0%, rgba(15,32,124,1) 10
 }
 
  .heading-body{
-    width: 40vw;
+    width: 40vw;;
     font-size:25px;
     height:auto;
    
+}
+
+.ratings{
+    display:flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+.hospital-chat{
+    height: 50vh;
+    width:30vw;
+    animation: pulse 2s ease-in-out infinite;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+.review-chat{
+    width:50vw;
+    margin-top: 10vh;
 }
 
