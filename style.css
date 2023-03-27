@@ -13,3 +13,15 @@
     justify-content: space-between;
     padding:10px;
 }
+
+.name-logo{
+    display:flex;
+    margin-left:6px;
+    
+}
+
+.logo{
+    border: 2px solid #000;
+    border-radius: 50px;
+    margin-right: 5px;
+}
