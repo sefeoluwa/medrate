@@ -14,7 +14,7 @@
     flex-direction:row;
     justify-content: space-between;
     padding:10px;
-    background-color: green;
+    background-color: transparent;
    position:fixed;
    overflow:hidden;
    top:0;
@@ -57,7 +57,7 @@
     bottom: 2px;
     width:100%;
     height:2px;
-    background: #e4e4e4;
+    background: #000;
     border-radius:5px;
     transform:translateY(10px);
     opacity:0;
@@ -83,7 +83,7 @@ a:active::after{
     margin-top: 10vh;
 }
 
-.ratings, .view-reviews, .hospitals{
+.ratings, .view-reviews, .hospitals, .main-content{
     height: 100vh;
     
 }
