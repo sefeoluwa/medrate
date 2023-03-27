@@ -8,6 +8,10 @@
     
 }
 
+body{
+   
+}
+
 .main-container{
  
 }
@@ -21,6 +25,7 @@
    position:fixed;
    overflow:hidden;
    top:0;
+   z-index:100;
    width:100vw;
   /* From https://css.glass */
 /* From https://css.glass */
@@ -48,6 +53,10 @@ border: 1px solid rgba(30, 75, 202, 1);
 .name{
     font-size: 25px;
     
+}
+
+.search{
+    color:#fff;
 }
 
 .nav-links a{
@@ -98,20 +107,37 @@ a:active::after{
 }
 
 .main-content{
-    padding-top: 10vh;
+    padding-top: 12vh;
     background: rgb(221,225,244);
     background: rgb(156,169,233);
-background: radial-gradient(circle, rgba(156,169,233,1) 0%, rgba(15,32,124,1) 100%); 
+background-image: url(images/anatomical-gefbb90c5d_1280.jpg); 
     display:flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction:column;
-   
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    color:#fff;
+  
+}
+
+.content{
+    border: 2px solid #fff;
+    height:80vh;
+    width:50vw;
+    padding:5%;
+    background: rgba(34, 36, 99, 0.9);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0.5, 1);
+backdrop-filter: blur(9.7px);
+-webkit-backdrop-filter: blur(9.7px);
+border: 1px solid rgba(34, 36, 99, 0.3);
 }
 
 .report-gif{
     height:40vh;
-    margin-top: 2vh;
+    
+    margin-left: 10vw;
 }
 
 .heading{
@@ -130,7 +156,8 @@ background: radial-gradient(circle, rgba(156,169,233,1) 0%, rgba(15,32,124,1) 10
 .ratings{
     display:flex;
     justify-content: space-between;
-
+    background-color: #000;  
+    color: #fff;   
 
 }
 
@@ -142,7 +169,7 @@ background: radial-gradient(circle, rgba(156,169,233,1) 0%, rgba(15,32,124,1) 10
     animation: pulse 2s ease-in-out infinite;
     transform-style: preserve-3d;
     perspective: 1000px;
-    
+    z-index:0;
 }
 @keyframes pulse {
     0% {
