@@ -100,7 +100,8 @@ a:active::after{
 .main-content{
     padding-top: 10vh;
     background: rgb(221,225,244);
-    background: radial-gradient(circle, rgba(221,225,244,1) 0%, rgba(114,136,249,1) 100%);
+    background: rgb(156,169,233);
+background: radial-gradient(circle, rgba(156,169,233,1) 0%, rgba(15,32,124,1) 100%); 
     display:flex;
     justify-content: flex-start;
     align-items: center;
@@ -112,3 +113,17 @@ a:active::after{
     height:40vh;
     margin-top: 2vh;
 }
+
+.heading{
+    width: 40vw;
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+ .heading-body{
+    width: 40vw;
+    font-size:25px;
+    height:auto;
+   
+}
+
