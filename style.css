@@ -24,7 +24,7 @@
    width:100vw;
   /* From https://css.glass */
 /* From https://css.glass */
-background: #7288f9;
+background: #000;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
@@ -34,14 +34,15 @@ border: 1px solid rgba(30, 75, 202, 1);
 .name-logo{
     display:flex;
     margin-left:8vw;
-    
+    color:#fff;
 }
 
-.logo{
-    border: 2px solid #000;
+#logo{
+    border: 2px solid #fff;
     border-radius: 50px;
     margin-right: 5px;
     margin-top: 4px;
+    
 }
 
 .name{
@@ -53,7 +54,7 @@ border: 1px solid rgba(30, 75, 202, 1);
     position:relative;
     text-decoration: none;
     padding:15px;
-    color:#000;
+    color:#fff;
     font-weight: 500;
 
 }
@@ -65,7 +66,7 @@ border: 1px solid rgba(30, 75, 202, 1);
     bottom: 2px;
     width:100%;
     height:2px;
-    background: #000;
+    background: #fff;
     border-radius:5px;
     transform:translateY(10px);
     opacity:0;
@@ -101,7 +102,13 @@ a:active::after{
     background: rgb(221,225,244);
     background: radial-gradient(circle, rgba(221,225,244,1) 0%, rgba(114,136,249,1) 100%);
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction:column;
+   
+}
+
+.report-gif{
+    height:40vh;
+    margin-top: 2vh;
 }
