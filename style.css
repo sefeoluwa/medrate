@@ -7,13 +7,20 @@
     font-family: 'Familjen Grotesk', sans-serif;
 }
 
+
+
 .navbar{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
     padding:10px;
     background-color: green;
-    z-index: 100;
+   position:fixed;
+   overflow:hidden;
+   top:0;
+    
+    width:100vw;
+    
 }
 
 .name-logo{
@@ -68,4 +75,20 @@ a:active::after{
     transform: translateY(0);
     opacity: 1;
     
+}
+
+.main{
+    scroll-behavior: smooth;
+    font-size: 20px;
+    margin-top: 10vh;
+}
+
+.ratings, .view-reviews, .hospitals{
+    height: 100vh;
+    
+}
+
+
+.ratings{
+   
 }
