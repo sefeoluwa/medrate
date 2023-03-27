@@ -24,7 +24,7 @@
    width:100vw;
   /* From https://css.glass */
 /* From https://css.glass */
-background: rgba(30, 75, 202, 0.63);
+background: #7288f9;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
@@ -100,4 +100,8 @@ a:active::after{
     padding-top: 10vh;
     background: rgb(221,225,244);
     background: radial-gradient(circle, rgba(221,225,244,1) 0%, rgba(114,136,249,1) 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
 }
