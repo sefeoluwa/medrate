@@ -8,6 +8,15 @@
     
 }
 
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
 
 .navbar{
     display:flex;
@@ -64,9 +73,13 @@ border: 1px solid rgba(30, 75, 202, 1);
 }
 
 
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-
-.nav-links a{
+.nav-item a{
     position:relative;
     text-decoration: none;
     padding:15px;
@@ -75,7 +88,7 @@ border: 1px solid rgba(30, 75, 202, 1);
 
 }
 
-.nav-links a::after {
+.nav-item a::after {
     content: '';
     position:absolute;
     left:0;
@@ -90,7 +103,7 @@ border: 1px solid rgba(30, 75, 202, 1);
 
 }
 
-.nav-links a:hover::after{
+.nav-item a:hover::after{
     transform: translateY(0);
     opacity: 1;
     
@@ -368,7 +381,7 @@ height:7vh;
 
 
 @media only screen and (max-width: 768px) {
-    .nav-links {
+    .nav-menu {
         position: fixed;
         left: -100%;
         top: 5rem;
@@ -380,9 +393,11 @@ height:7vh;
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
+            z-index:0;
+            color:#fff;
     }
 
-    .nav-links.active {
+    .nav-menu.active {
         left: 0;
     }
 
@@ -390,10 +405,169 @@ height:7vh;
         margin: 2.5rem 0;
     }
 
+   
+
+    .nav-link{
+        color:#fff;
+    }
+
     .hamburger {
         display: block;
         cursor: pointer;
     }
 
-}
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
 
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .content {
+        height: auto;
+        width: 90%;
+        margin-bottom:10px;
+      }
+    
+      .main-content{
+       background-size: 100% 100vh;
+       
+      }
+
+      .report-gif {
+        height: 20vh;
+        margin-top: 0;
+        margin-left: 5vw;
+      }
+    
+      .heading {
+        width: 90%;
+        font-size: 25px;
+      }
+    
+      .heading-body {
+        width: 90%;
+        font-size: 18px;
+        margin-bottom: 4%;
+      }
+    
+      .hospital-chat{
+        width:80vw;
+        margin-left: 7vw;
+        margin-top: -5vh;
+      }
+
+    .ratings{
+        display:flex;
+        flex-direction:column;
+        padding-bottom: 50vh;
+        justify-content:flex-start;
+       
+    }
+
+    .review-chat {
+        width: 90%;
+        height: 60vh;
+        margin-top: 0;
+        margin-left:4.5vw;
+        padding-top:0;
+    }
+
+    .review {
+        font-size: 20px;
+    }
+
+    .how-to-review {
+        font-size: 16px;
+    }
+
+
+    .view-reviews {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10vh 5vw;
+      }
+    
+      .doc, .doctor{
+        margin-top:0;
+        margin-bottom: 0;
+        width: 50vw;
+        height: 20vh;
+        
+      }
+    
+      .texts {
+        width: 90vw;
+        height: 60vh;
+        margin-top:0;
+        padding: 3%;
+      }
+    
+      .find-review {
+        font-size: 25px;
+        margin-top:1vh;
+        margin-bottom:1vh;
+      }
+    
+      .to-find-review {
+      
+        font-size: 17px;
+      }
+
+      .hospitals {
+        background-size: 100vw 50vh;
+        padding-left: 0;
+        height:80vh;
+        
+      }
+      
+      .hosp-text {
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 15vh;
+        box-shadow: none;
+        background-size: 100vw;
+        border: solid 3px #bde0fe;
+        border-radius: 16px;
+    box-shadow: 0 4px 30px #bde0fe inset;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+      }
+      
+      .find-hospitals {
+        font-size: 30px;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        margin-left:3vw;
+      }
+      
+      .directions {
+        font-size: 20px;
+        width: 90%;
+      }
+
+      .footer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2vh;
+        
+      }
+
+      .footer > p{
+        padding:1%;
+      }
+    
+      .foot {
+        height: 20vh;
+        font-size: 0.8em;
+      }
+
+    }
