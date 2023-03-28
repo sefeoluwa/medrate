@@ -288,24 +288,29 @@ backdrop-filter: blur(12px);
     font-size:25px;
 }
 
+.hospitals{
+    background-repeat: no-repeat;
+    background-size: 80vw 100vh;
+  background-image: url("images/searching-animation.gif" );
+  padding-left: 10vw;
+  background-origin: content-box;
+}
+
 .hosp-container{
-  display:flex;
-  justify-content:space-between;
+    
   padding-top:10vh;
 }
 
-.hosp-img{
-    width: 40vw;
-    height: 60vh;
-    
-}
+
 
 .hosp-text{
-    width:40vw;
+    width:60vw;
     height:60vh;
     padding-right: 5vw;
     margin-right: 5vw;
     padding-top: 10vh;
+    z-index:1;
+    
 }
 
 .find-hospitals{
