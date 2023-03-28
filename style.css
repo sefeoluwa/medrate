@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: 'Familjen Grotesk', sans-serif;
+    font-family:  sans-serif;
     
 }
 
@@ -52,7 +52,7 @@ border: 1px solid rgba(30, 75, 202, 1);
 }
 
 .name{
-    font-size: 25px;
+    font-size: 30px;
     
 }
 
@@ -85,7 +85,7 @@ border: 1px solid rgba(30, 75, 202, 1);
     padding:15px;
     color:#fff;
     font-weight: 500;
-
+    font-size: 2vh;
 }
 
 .nav-item a::after {
@@ -524,7 +524,7 @@ height:7vh;
       .hospitals {
         background-size: 100vw 50vh;
         padding-left: 0;
-        height:80vh;
+        height:70vh;
         
       }
       
@@ -566,7 +566,7 @@ height:7vh;
       }
     
       .foot {
-        height: 20vh;
+        height: 15vh;
         font-size: 0.8em;
       }
 
