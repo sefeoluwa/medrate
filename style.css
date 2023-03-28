@@ -157,7 +157,10 @@ border: 1px solid rgba(34, 36, 99, 0.3);
 .ratings{
     display:flex;
     justify-content: space-between;
-    background-image: url(images/annie-spratt-Mk0Y-Ckw0vA-unsplash.jpg);  
+    background-color: #bde0fe;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7) inset;
+    backdrop-filter: blur(9.7px);
+-webkit-backdrop-filter: blur(9.7px);  
     background-size: 100vw 100vh;
     color: #000;   
 
@@ -198,7 +201,7 @@ border: 1px solid rgba(34, 36, 99, 0.3);
     padding:5%;
     background: rgba(18, 162, 178, 0.5);
 border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7) inset;
 backdrop-filter: blur(9.7px);
 -webkit-backdrop-filter: blur(9.7px);
 border: 1px solid rgba(34, 36, 99, 0.3);
@@ -218,18 +221,24 @@ margin-right:5vw;
 .view-reviews{
     display:flex;
     justify-content: space-between;
-
+    padding-top:10vh;
+    background-color:  	#bde0fe;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7) inset;
+    backdrop-filter: blur(9.7px);
+-webkit-backdrop-filter: blur(9.7px);
+   
 }
 
 .doc{
     width:30vw;
     height:60vh;
     margin-top:10vh;
-    border-bottom:1px solid rgba(34, 36, 99, 0.3);
-    backdrop-filter: blur(9.7px);
-    -webkit-backdrop-filter: blur(9.7px);
+    background-color:transparent;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
-    
+    background-size:100vh;
+    box-shadow: 0 4px 30px #fff inset;
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
 }
 
 
@@ -249,11 +258,16 @@ margin-right:5vw;
     width:50vw;
     height:70vh;
     border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
 backdrop-filter: blur(9.7px);
 -webkit-backdrop-filter: blur(9.7px);
 border: 1px solid rgba(34, 36, 99, 0.3);
 padding: 5%;
+background-color: rgba(18, 162, 178, 0.8);
+    background-size:100vh;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7) ;
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
 }
 
 .find-review{
@@ -264,4 +278,9 @@ padding: 5%;
 
 .to-find-review{
     font-size:25px;
+}
+
+.hospitals{
+    background-image: url(images/world-g6ba2f529f_1280.png);
+    background-size: 100vw 100vh;
 }
