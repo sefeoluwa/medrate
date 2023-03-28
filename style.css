@@ -222,7 +222,8 @@ margin-right:5vw;
     display:flex;
     justify-content: space-between;
     padding-top:10vh;
-    background-color:  	#bde0fe;
+    background-color:  	rgba(30, 75, 202, 0.8);
+    color:#fff;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7) inset;
     backdrop-filter: blur(9.7px);
 -webkit-backdrop-filter: blur(9.7px);
@@ -247,6 +248,7 @@ backdrop-filter: blur(12px);
     width:30vw;
     height:60vh;
     transition: transform 0.3s ease-in-out;
+    z-index:0;
 }
 
 .doctor:hover {
@@ -254,6 +256,8 @@ backdrop-filter: blur(12px);
   }
 
 .texts{
+    z-index:1;
+    transition: transform 0.3s ease-in-out;
     margin-top: 5vh;
     width:50vw;
     height:70vh;
@@ -270,6 +274,10 @@ backdrop-filter: blur(12px);
 -webkit-backdrop-filter: blur(12px);
 }
 
+.texts:hover {
+    transform: scale(1.01);
+  }
+
 .find-review{
     margin-top: 6vh;
     font-size: 45px;
@@ -280,7 +288,31 @@ backdrop-filter: blur(12px);
     font-size:25px;
 }
 
-.hospitals{
-    background-image: url(images/world-g6ba2f529f_1280.png);
-    background-size: 100vw 100vh;
+.hosp-container{
+  display:flex;
+  justify-content:space-between;
+  padding-top:10vh;
+}
+
+.hosp-img{
+    width: 40vw;
+    height: 60vh;
+    
+}
+
+.hosp-text{
+    width:40vw;
+    height:60vh;
+    padding-right: 5vw;
+    margin-right: 5vw;
+    padding-top: 10vh;
+}
+
+.find-hospitals{
+    font-size: 45px;
+    margin-bottom: 4vh;
+}
+
+.directions{
+    font-size: 25px;
 }
