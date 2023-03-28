@@ -136,7 +136,7 @@ border: 1px solid rgba(34, 36, 99, 0.3);
 
 .report-gif{
     height:40vh;
-    
+    margin-top: -6vh;
     margin-left: 10vw;
 }
 
@@ -144,6 +144,7 @@ border: 1px solid rgba(34, 36, 99, 0.3);
     width: 40vw;
     font-weight: 1000;
     font-size: 50px;
+    margin-bottom:4vh;
 }
 
  .heading-body{
@@ -205,10 +206,62 @@ margin-right:5vw;
 }
 
 .review{
+    margin-top: 6vh;
     font-size: 45px;
+    margin-bottom:5vh;
 }
 
 .how-to-review{
     font-size:25px;
 }
 
+.view-reviews{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.doc{
+    width:30vw;
+    height:60vh;
+    margin-top:10vh;
+    border-bottom:1px solid rgba(34, 36, 99, 0.3);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    
+}
+
+
+
+.doctor{
+    width:30vw;
+    height:60vh;
+    transition: transform 0.3s ease-in-out;
+}
+
+.doctor:hover {
+    transform: scale(1.1);
+  }
+
+.texts{
+    margin-top: 5vh;
+    width:50vw;
+    height:70vh;
+    border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+backdrop-filter: blur(9.7px);
+-webkit-backdrop-filter: blur(9.7px);
+border: 1px solid rgba(34, 36, 99, 0.3);
+padding: 5%;
+}
+
+.find-review{
+    margin-top: 6vh;
+    font-size: 45px;
+    margin-bottom:5vh;
+}
+
+.to-find-review{
+    font-size:25px;
+}
