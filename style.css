@@ -296,28 +296,64 @@ backdrop-filter: blur(12px);
   background-origin: content-box;
 }
 
-.hosp-container{
-    
-  padding-top:10vh;
-}
 
 
 
 .hosp-text{
-    width:60vw;
-    height:60vh;
-    padding-right: 5vw;
-    margin-right: 5vw;
-    padding-top: 10vh;
+    width:40vw;
+    height:80vh;
+    margin-left: 20vw;
+    position:relative;
+    margin-top: 7vh;
     z-index:1;
-    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:transparent;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    background-size:100vh;
+    box-shadow: 0 4px 30px #fff inset;
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+transition: background-color  0.3s ease-in-out;
 }
+
+
+.hosp-text:hover {
+    background-color:rgba(18, 162, 178, 0.5);
+   
+    color:#000;
+     
+  }
+
 
 .find-hospitals{
     font-size: 45px;
+    margin-top:5vh;
     margin-bottom: 4vh;
+
 }
 
 .directions{
     font-size: 25px;
+    width:35vw;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+   margin-top:2vh;
+ 
+
+}
+
+.foot{
+    background: #000;
+    color:#fff;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(30, 75, 202, 1);
+height:7vh;
 }
