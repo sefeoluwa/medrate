@@ -5,25 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Healthcare Rating App</title>
 </head>
 <body>
     <div class="main-container">
         <header class="nav-container">
             <nav class="navbar">
-               <div class="name-logo">
-                <box-icon name='plus-medical' id="logo" color="#fff"></box-icon>
-                <p class="name" >MedRate</p>
+               <div>
+                <div class="name-logo">
+                    <box-icon name='plus-medical' id="logo" color="#fff"></box-icon>
+                    <p class="name" >MedRate</p>
+                   </div>
                </div>
-               <div class="hamburger">
+               <div>
+                <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-               <div class="nav-links">
-                <a href="index.html" class="nav-item">Home</a>
-                <a href="#" class="nav-item">Submit Reviews</a>
-                <a href="#" class="nav-item">Medical Centers</a>
+               <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Submit Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Medical Centers</a>
+                </li>
+               </ul>
                </div>
             </nav>
         </header>
@@ -45,7 +56,7 @@
             </div>
             <div class="view-reviews">
                 <div class="doc">
-                    <img src="images/doctor.png" alt="male doctor illustration" class="doctor">
+                    <img src="images/doctor.png" alt="male doctor illustration" class="doctor ">
                 </div>
 
                 <div class="texts">
@@ -81,6 +92,8 @@
 
     
     </div>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./script.js"></script>
+
+    
 </body>
 </html>
