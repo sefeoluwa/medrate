@@ -5,7 +5,7 @@
     margin:0;
     padding:0;
     font-family: Helvetica, sans-serif;
-    
+    font-weight:bold;
 }
 
 li{
@@ -243,7 +243,7 @@ margin-right:5vw;
     justify-content: space-between;
     padding-top:10vh;
     background-color:  	rgba(30, 75, 202, 0.8);
-    color:#fff;
+    color:#000;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7) inset;
     backdrop-filter: blur(9.7px);
 -webkit-backdrop-filter: blur(9.7px);
@@ -294,9 +294,7 @@ backdrop-filter: blur(12px);
 -webkit-backdrop-filter: blur(12px);
 }
 
-.texts:hover {
-    transform: scale(1.01);
-  }
+
 
 .find-review{
     margin-top: 6vh;
@@ -377,7 +375,11 @@ backdrop-filter: blur(20px);
 border: 1px solid rgba(30, 75, 202, 1);
 height:7vh;
 }
+ 
 
+.footer > p{
+    cursor:pointer;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -512,7 +514,7 @@ height:7vh;
         width: 90vw;
         height: 60vh;
         margin-top:0;
-        padding: 3%;
+        padding: 5%;
       }
     
       .find-review {
@@ -537,7 +539,7 @@ height:7vh;
         width: 95%;
         height: auto;
         margin: 0 auto;
-        margin-top: 15vh;
+        margin-top: 10vh;
         box-shadow: none;
         background-size: 100vw;
         border: solid 3px #bde0fe;
