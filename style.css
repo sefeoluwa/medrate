@@ -456,6 +456,7 @@ backdrop-filter: blur(12px);
     .nav-item a{
         color:#000;
         z-index:5;
+        font-size: 12px;
     }
 
    
