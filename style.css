@@ -450,13 +450,13 @@ backdrop-filter: blur(12px);
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 2rem 0;
     }
 
     .nav-item a{
         color:#000;
         z-index:5;
-        font-size: 12px;
+        font-size: 14px;
     }
 
    
