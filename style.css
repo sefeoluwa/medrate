@@ -405,6 +405,11 @@ height:7vh;
         margin: 2.5rem 0;
     }
 
+    .nav-item a{
+        color:#000;
+        z-index:5;
+    }
+
    
 
     .nav-link{
