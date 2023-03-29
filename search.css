@@ -5,11 +5,6 @@
     
 }
 
-body{
-  
-}
-
-
 
 .search-container {
     position:relative;
@@ -97,3 +92,12 @@ body{
     transform: translate(-50%, -50%);
   }
   
+
+  @media only screen and (max-width:867px) {
+    .search-container{
+        background-size:100% 60vh;
+        border-bottom: 20vh solid #000;
+        border-top: 21vh solid #000; 
+
+    }
+  }
