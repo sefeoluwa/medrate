@@ -1,6 +1,15 @@
-const searchIcon = document.querySelector('.search-icon');
-const searchForm = document.querySelector('.search-form');
+const searchBox = document.querySelector('.search-box');
+const searchBtn = document.querySelector('.search-btn');
+const searchInput = document.querySelector('input[type="text"]');
 
-searchIcon.addEventListener('click', function() {
-  searchForm.classList.toggle('active');
+searchBtn.addEventListener('click', () => {
+  searchBox.classList.toggle('active');
+  searchInput.focus();
 });
+
+searchInput.addEventListener('blur', () => {
+  if (searchInput.value === '') {
+    searchBox.classList.remove('active');
+  }
+});
+
