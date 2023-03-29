@@ -1,12 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+  
+}
+
+
+
 .search-container {
+    position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f1f1f1;
+    width:100vw;
+    height:100vh;
+    background-image: url(images/anatomical-gefbb90c5d_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    z-index:1;
   }
   
+  
   .search-box {
+    position:relative;
+    z-index:2;
     display: flex;
     align-items: center;
     width: 300px;
@@ -34,10 +55,6 @@
   
   .search-box input:focus {
     background-color: #f1f1f1;
-  }
-
-  .btn{
-    
   }
   
   .search-btn {
