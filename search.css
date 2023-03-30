@@ -9,6 +9,7 @@
 .search-container {
     position:relative;
     display: flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
     width:100vw;
@@ -18,7 +19,16 @@
     background-size: 100vw 100vh;
     z-index:1;
   }
-  
+
+ 
+
+  .search-text{
+    margin-top:-15vh;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+  }  
   
   .search-box {
     position:relative;
@@ -32,6 +42,7 @@
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease-in-out;
+    margin-top:3vh;
   }
   
   .search-box.active {
@@ -99,5 +110,9 @@
         border-bottom: 20vh solid #000;
         border-top: 21vh solid #000; 
 
+    }
+
+    .search-text{
+      font-size:18.5px;
     }
   }
