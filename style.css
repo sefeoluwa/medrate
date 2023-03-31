@@ -586,12 +586,13 @@ backdrop-filter: blur(12px);
       
       .hosp-text {
         width: 95%;
+        padding:1%;
         height: auto;
         margin: 0 auto;
         margin-top: 3vh;
         box-shadow: none;
         background-size: 100vw;
-        border: solid 3px #bde0fe;
+        border: solid 4px #101010;
         border-radius: 16px;
     box-shadow: 0 4px 30px #bde0fe inset;
         backdrop-filter: none;
@@ -651,7 +652,7 @@ backdrop-filter: blur(12px);
     }
 
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (min-width: 1024px) and (max-height:640px) {
         
         .navbar{
             width:100vw;
@@ -780,7 +781,8 @@ backdrop-filter: blur(12px);
         .check-review{
             height: 10vh;
             width:40vw;
-            margin-right:5vw;
+           margin-left:1vw;
+           margin-top:3.5vh;
         }
 
 
