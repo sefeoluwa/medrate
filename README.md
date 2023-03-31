@@ -9,3 +9,6 @@ This website aims to solve the difficulties of finding great and functional hosp
 Live preview --> https://sefeoluwa.github.io/medrate/
 
 Contributor: https://github.com/icecxxl
+
+![health](https://user-images.githubusercontent.com/104764597/229061259-b0bf20db-921c-4d15-a87c-b234cb97ccfd.png)
+
