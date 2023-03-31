@@ -649,3 +649,173 @@ backdrop-filter: blur(12px);
     }
 
     }
+
+
+    @media screen and (max-width: 1024px) {
+        
+        .navbar{
+            width:100vw;
+        }
+
+        .nav-item > a{
+            font-size:18px;
+        }
+        
+        .main {
+        font-size: 16px;
+        width:100vw;
+        }
+        
+        .ratings,
+        .view-reviews,
+        .hospitals,
+        .main-content {
+        height: auto;
+        }
+        
+        .main-content {
+        padding-top: 8vh;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        height:100vh;
+        width:100vw;
+        }
+        
+        .content {
+        margin-top:10vh;
+        width: 70vw;
+        height: 70vh;
+        }
+        
+        .report-gif {
+        height: 25vh;
+        margin-top: -4vh;
+        margin-left: 5vw;
+        }
+        
+        .heading {
+        font-size: 35px;
+        margin-bottom: 2vh;
+        width:70vw;
+        margin-left: -5vw;
+        }
+        
+        .heading-body {
+        font-size: 20px;
+        width:55vw;
+        margin-left: 3vw;;
+        }
+        
+        .ratings {
+        height:100vh;
+        align-items: center;
+        width:100vw;
+        }
+
+        .hospital-chat{
+            width:20vw;
+            height:30vh;
+        }
+
+        .review-chat{
+            width:60vw;
+            margin-top:-3vh;
+            height: 90vh;
+        }
+
+        .review{
+            font-size:32px;
+            font-weight: 1000;
+            margin-top:-2vh;
+        }
+
+        .review-btn{
+            height: 10vh;
+            width:40vw;
+            margin-right:5vw;
+        }
+
+        .how-to-review{
+            font-size: 20px;
+        }
+
+
+
+       .doc > .doctor{
+            width:23vw;
+            height: 45vh;
+            z-index:0;
+            margin-top: 6vh;
+        }
+
+        .doctor:hover {
+            transform: scale(1.5);
+          }
+
+        .texts {
+            width: 54vw;
+            height: 80vh;
+            margin-top:0.5vh;
+            z-index:1;
+            padding: 3%;
+        }
+
+        .view-reviews{
+            height:100vh;
+            width:100vw;
+        }
+
+        .find-review {
+            font-size: 32px;
+            font-weight: 1000;
+            margin-top:5vh;
+            margin-bottom:0.5vh;
+        }
+        .to-find-review {
+            font-size: 20px;
+            margin-top:4vh;
+        }
+
+        .check-review{
+            height: 10vh;
+            width:40vw;
+            margin-right:5vw;
+        }
+
+
+        .hospitals{
+            height:100vh;
+            width:100vw;
+        }
+
+        .hosp-text {
+            width: 60vw;
+            height: 90vh;
+            margin-left:9.5vw;
+        }
+
+        .find-hospitals {
+            font-size: 30px;
+            margin-top: 0.5vh;
+            margin-bottom: 2vh;
+            margin-left: 2vw;
+            font-weight: 1000;
+        }
+
+        .directions {
+            font-size: 20px;
+            width:50vw;
+            margin-top:5vh;
+        }
+
+        .search{
+            height: 10vh;
+            width:40vw;
+        }
+       
+        .foot{
+            width:100vw;
+        }
+
+        }  
