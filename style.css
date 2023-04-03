@@ -317,6 +317,7 @@ backdrop-filter: blur(12px);
   padding-left: 10vw;
   background-origin: content-box;
   width:90vw;
+  height:100vh;
 }
 
 
@@ -324,7 +325,7 @@ backdrop-filter: blur(12px);
 
 .hosp-text{
     width:40vw;
-    height:80vh;
+    height:93vh;
     margin-left: 20vw;
     position:relative;
     margin-top: 7vh;
@@ -436,7 +437,7 @@ backdrop-filter: blur(12px);
   }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -674,7 +675,7 @@ backdrop-filter: blur(12px);
         }
 
         .nav-item > a{
-            font-size:18px;
+            font-size:15px;
         }
         
         .main {
@@ -682,6 +683,9 @@ backdrop-filter: blur(12px);
         width:100vw;
         }
         
+        .report-gif{
+            margin-right: 3vw;
+        }
         
         
         .main-content {
@@ -695,7 +699,7 @@ backdrop-filter: blur(12px);
         
         .content {
         margin-top:10vh;
-        width: 70vw;
+        width: 60vw;
         height: 70vh;
         }
         
@@ -708,14 +712,14 @@ backdrop-filter: blur(12px);
         .heading {
         font-size: 35px;
         margin-bottom: 2vh;
-        width:70vw;
-        margin-left: -5vw;
+        width:55vw;
+        margin-left: -2vw;
         }
         
         .heading-body {
         font-size: 20px;
         width:55vw;
-        margin-left: 3vw;;
+        margin-left: -2vw;
         }
         
         .ratings {
